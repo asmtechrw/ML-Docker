@@ -3,7 +3,7 @@
 FROM python:3.9-slim
 
 # Set the maintainer label for metadata.
-LABEL maintainer="hrmuwanika@gmail.com"
+LABEL maintainer="asmtechrw@gmail.com"
 
 # Set a working directory inside the container to store all our project files.
 WORKDIR /usr/src/app
