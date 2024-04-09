@@ -14,13 +14,13 @@ A quick and easy setup for running Jupyter notebooks in a Dockerized environment
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/asmtechrw/ML-Docker.git
+git clone https://github.com/asmtechrw/jupyter-docker-compose
 ```
 
 Navigate to the project root directory:
 
 ```bash
-cd ML-Docker
+cd jupyter-docker-compose
 ```
 
 Build the the image for the Jupyter Notebook server:
