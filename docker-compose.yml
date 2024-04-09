@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./work:/opt/work
+      - ./work:/home/jovyan/work
     ports:
       - 8888:8888
     container_name: jupyter_notebook
