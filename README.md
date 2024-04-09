@@ -20,7 +20,7 @@ git clone https://github.com/asmtechrw/ML-Docker.git
 Navigate to the project root directory:
 
 ```bash
-cd jupyter-docker-compose
+cd ML-Docker
 ```
 
 Build the the image for the Jupyter Notebook server:
