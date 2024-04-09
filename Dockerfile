@@ -5,6 +5,10 @@ FROM jupyter/minimal-notebook
 # Set the maintainer label for metadata.
 LABEL maintainer="hrmuwanika@gmail.com"
 
+# Update the operating system
+RUN apt-get update && \
+    apt-get upgrade -y
+    
 # Set a working directory inside the container to store all our project files.
 WORKDIR /opt
 
